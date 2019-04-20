@@ -25,3 +25,11 @@ Assignment 6 - AJAX/GifTastic
 7. Deploy your assignment to Github Pages.
 
 8. **Rejoice**! You just made something really cool.
+
+### Bonus Goals
+
+- Ensure your app is fully mobile responsive.
+
+- List additional metadata (title, tags, etc) for each gif in a clean and readable format.
+
+- Integrate this search with additional APIs such as OMDB, or Bands in Town. Be creative and build something you are proud to showcase in your portfolio
