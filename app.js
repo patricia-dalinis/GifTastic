@@ -22,6 +22,8 @@ $(document).ready(function () {
         };
     };
 
+    makeButtons();
+
     $("#add-movie").on("click", function (event) {
         event.preventDefault();
         var movie = $("#movie-input").val().trim();
@@ -31,7 +33,7 @@ $(document).ready(function () {
         makeButtons();
     });
 
-    makeButtons();
+    // makeButtons();
 
     $("button").on("click", function () {
         var thisMovie = $(this).attr("data-name");
