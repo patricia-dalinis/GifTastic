@@ -38,7 +38,7 @@ $(document).ready(function () {
     $("button").on("click", function () {
         var thisMovie = $(this).attr("data-name");
         console.log(thisMovie);
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + thisMovie + "&api_key=dc6zaTOxFJmzC&limit=10"
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + thisMovie + "&api_key=KL0UAhT41qW9T3tMUDSWhiFnNWepBsBA&limit=10"
 
         $.ajax({
                 url: queryURL,
